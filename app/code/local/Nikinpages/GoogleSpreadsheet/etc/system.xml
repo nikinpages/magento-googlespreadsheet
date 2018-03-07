@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <google_api_configuration  translate="label" module="nikinpages_googlespreadsheet">
+            <label>Google API Configuration</label>
+            <tab>catalog</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>0</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <googlesheet translate="label">
+                    <label>Google API Configuration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <service_account_file>
+                            <label>Google Service Account File Name</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Create the file under &lt;root-path&gt;/var/import path</comment>
+                        </service_account_file>
+                        <google_spreadsheet_id>
+                            <label>Google Spread Sheet Id</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>51</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>This ID is the value between the "/d/" and the "/edit" in the URL of your spreadsheet.</comment>
+                        </google_spreadsheet_id>
+                        <google_spreadsheet_name>
+                            <label>Google SpreadSheet Worksheet Name</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1000</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </google_spreadsheet_name>
+                    </fields>
+                </googlesheet>
+            </groups>
+        </google_api_configuration>
+    </sections>
+</config>
